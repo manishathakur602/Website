@@ -10,7 +10,7 @@ const Header = () => {
   const togglePagesDropdown = () => setIsPagesDropdownOpen(!isPagesDropdownOpen);
 
   return (
-    <nav className="relative p-4 bg-cover bg-center" style={{ backgroundImage: `url(${h2})` }}>
+    <nav className="fixed top-0 left-0 w-full p-4 bg-cover bg-center z-50" style={{ backgroundImage: `url(${h2})` }}>
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <img src={h1} alt="Logo" className="h-8 w-8 mr-2" />

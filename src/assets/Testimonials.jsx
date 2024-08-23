@@ -70,11 +70,6 @@ const items = [
     </div>
 </div>
 </div>,
-     
-    
-
-
-
 
      <div className="  shadow-2xl shadow-slate-400 p-3  rounded-3xl pt-6 m-2" data-value="1">
      <div className='bg-[#FFE28A] flex flex-col lg:flex-row gap-5 p-5 rounded-lg items-center '>
