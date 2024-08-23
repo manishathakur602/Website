@@ -12,15 +12,15 @@ const BannerSection = () => {
               Our Experience in SEO is Unmatched <br />
               <span className="text-amber-600">Search Engine Optimization!</span>
             </h1>
-            <button className="mt-6 bg-amber-600 text-slate-50 px-8 py-3 rounded-full text-lg font-semibold hover:bg-blue-300 transition-colors duration-300">
-              Click Me!
-            </button>
+            <button className="mt-4 sm:mt-6 bg-amber-600 text-slate-50 px-6 sm:px-8 py-2 sm:py-3 rounded-full text-lg font-semibold hover:bg-blue-300 transition-colors duration-300 w-1/2 md:w-full">
+        Click Me!
+      </button>
           </div>
           <div className="lg:w-1/2 mt-8 lg:mt-0">
             <img
               src={h2}
               alt="Banner"
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover justify-items-center"
             />
           </div>
         </div>
