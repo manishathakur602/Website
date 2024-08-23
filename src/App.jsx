@@ -17,6 +17,9 @@ function App() {
     
        <Testimonials/> 
        <div className="bg-[#FFE28A]  ">
+       <div className="bg-black px-8 flex justify-center items-center">
+        <span className="text-blue-400">My Name Is Whatever</span>
+       </div>
 
        <ContactUS/> 
     </div>
