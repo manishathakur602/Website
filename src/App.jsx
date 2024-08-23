@@ -1,9 +1,11 @@
 import Testimonials from "./assets/Testimonials"
+import BannerSection from "./Banner"
 import Buttons from "./Buttons"
 import Carousel from "./Carousel"
 import ContactUS from "./ContactUs"
 import Courses from "./Courses"
 import Graphic from "./Graphic"
+import Header from "./Header"
 import Title from "./Title"
 import WebDesign from "./WebDesign"
 import WebPage from "./WebPage"
@@ -15,7 +17,10 @@ function App() {
   return (
     <>
     
-     <BrowserRouter>
+       
+    <BrowserRouter>
+    <Header />
+    <BannerSection />
      <Title />
      <Carousel />
      <Courses />
@@ -34,6 +39,7 @@ function App() {
      </div>
      
      </BrowserRouter>
+    
     
     </>
   )
