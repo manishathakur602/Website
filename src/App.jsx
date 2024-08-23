@@ -8,21 +8,32 @@ import Title from "./Title"
 import WebDesign from "./WebDesign"
 import WebPage from "./WebPage"
 import Word from "./Word"
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
 
   return (
     <>
     
-       <Testimonials/> 
-       <div className="bg-[#FFE28A]  ">
-       <div className="bg-black px-8 flex justify-center items-center">
-        <span className="text-blue-400">My Name Is Whatever</span>
-       </div>
-
-       <ContactUS/> 
-    </div>
+     <BrowserRouter>
+     <Title />
+     <Carousel />
+     <Courses />
+     <div className="lg:flex lg:p-5 lg:justify-around">
+      <Buttons />
+      <Routes>
+        <Route path="/" element={<WebPage />} />
+        <Route path="/graphic" element={<Graphic />} />
+        <Route path="/webdesign" element={<WebDesign />} />
+        <Route path="/word" element={<Word />} />
+      </Routes>
+     </div>
+     <div className="bg-[#e7ddc0]">
+     <Testimonials />
+     <ContactUS />
+     </div>
+     
+     </BrowserRouter>
     
     </>
   )
