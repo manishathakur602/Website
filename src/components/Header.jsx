@@ -93,14 +93,14 @@ const Header = () => {
       spy={true} 
       smooth={true} 
       offset={50} 
-      duration={500}  className="block text-black py-2">Home</Link>
+      duration={500}  className="block text-black py-2 cursor-pointer">Home</Link>
           {/* <Link  href="#about" className="block text-black py-2">About</Link> */}
           <Link activeClass="active" 
       to="test2" 
       spy={true} 
       smooth={true} 
       offset={50} 
-      duration={500}  className="block text-black py-2">Services</Link>
+      duration={500}  className="block text-black py-2 cursor-pointer">Services</Link>
           <Link  activeClass="active" 
       to="test3" 
       spy={true} 
