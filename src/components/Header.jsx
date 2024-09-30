@@ -22,24 +22,59 @@ const Header = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-4">
-          <Link to="/" onClick={()=>navigate('/')} className="text-black hover:text-gray-700">Home</Link>
+          <Link  activeClass="active" 
+      to="test1" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500}  onClick={()=>navigate('/')} className="text-black hover:text-gray-700">Home</Link>
           {/* <NavLink to="/aboutus" onClick={()=>navigate('/aboutus')} className="text-black hover:text-gray-700">About </NavLink> */}
-          <Link  to="/services"  onClick={()=>navigate('/services')} className="text-black hover:text-gray-700">Services</Link>
-          <Link  to="/Courses" onClick={()=>navigate('/Courses')} className="text-black hover:text-gray-700">Courses</Link>
+          <Link  activeClass="active" 
+      to="test2" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500}   onClick={()=>navigate('/services')} className="text-black hover:text-gray-700">Services</Link>
+          <Link   activeClass="active" 
+      to="test3" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500} onClick={()=>navigate('/Courses')} className="text-black hover:text-gray-700">Courses</Link>
           <div className="relative group">
             <button onClick={togglePagesDropdown} className="text-black hover:text-gray-700">
               Pages <span className="ml-1">▼</span>
             </button>
             {isPagesDropdownOpen && (
               <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1">
-                <Link  to="/aboutus" onClick={()=>navigate('/aboutus')} className="block px-4 py-2 text-gray-800 hover:bg-gray-100">About Us</Link>
-                <Link  to="/services" onClick={()=>navigate('/services')} className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Our Services</Link>
-                <Link  to="/ContactUS" onClick={()=>navigate('/ContactUS')} className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Contact Us</Link>
+                {/* <Link  to="/aboutus" onClick={()=>navigate('/aboutus')} className="block px-4 py-2 text-gray-800 hover:bg-gray-100">About Us</Link> */}
+                <Link   activeClass="active" 
+      to="test2" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500} onClick={()=>navigate('/services')} className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Our Services</Link>
+                <Link  activeClass="active" 
+      to="test5" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500}  onClick={()=>navigate('/ContactUS')} className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Contact Us</Link>
               </div>
             )}
           </div>
-          <Link  to="/Testimonials" onClick={()=>navigate('/Testimonials')} className="text-black hover:text-gray-700">Testimonials</Link>
-          <Link  to="/ContactUS" onClick={()=>navigate('/ContactUS')} className="text-black hover:text-gray-700">Contact Us</Link>
+          <Link   activeClass="active" 
+      to="test4" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500}  onClick={()=>navigate('/Testimonials')} className="text-black hover:text-gray-700">Testimonials</Link>
+          <Link   activeClass="active" 
+      to="test5" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500}  onClick={()=>navigate('/ContactUS')} className="text-black hover:text-gray-700">Contact Us</Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -53,22 +88,57 @@ const Header = () => {
       {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="md:hidden mt-4 px-4">
-          <Link  href="#" className="block text-black py-2">Home</Link>
-          <Link  href="#about" className="block text-black py-2">About</Link>
-          <Link  href="#" className="block text-black py-2">Services</Link>
-          <Link  href="#" className="block text-black py-2">Courses</Link>
+          <Link  activeClass="active" 
+      to="test1" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500}  className="block text-black py-2">Home</Link>
+          {/* <Link  href="#about" className="block text-black py-2">About</Link> */}
+          <Link activeClass="active" 
+      to="test2" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500}  className="block text-black py-2">Services</Link>
+          <Link  activeClass="active" 
+      to="test3" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500} className="block text-black py-2">Courses</Link>
           <button onClick={togglePagesDropdown} className="w-full text-left text-black py-2">
             Pages <span className="ml-1">▼</span>
           </button>
           {isPagesDropdownOpen && (
             <div className="pl-4">
-              <Link  href="#" className="block text-black py-2">About Us</Link>
-              <Link  href="#" className="block text-black py-2">Our Services</Link>
-              <Link  href="#" className="block text-black py-2">Contact Us</Link>
+              {/* <Link  href="#" className="block text-black py-2">About Us</Link> */}
+              <Link  activeClass="active" 
+      to="test2" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500} className="block text-black py-2">Our Services</Link>
+              <Link   activeClass="active" 
+      to="test4" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500} className="block text-black py-2">Contact Us</Link>
             </div>
           )}
-          <Link  href="#" className="block text-black py-2">Testimonials</Link>
-          <Link  href="#" className="block text-black py-2">Contact Us</Link>
+          <Link   activeClass="active" 
+      to="test4" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500} className="block text-black py-2">Testimonials</Link>
+          <Link   activeClass="active" 
+      to="test5" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500} className="block text-black py-2">Contact Us</Link>
         </div>
       )}
     </nav>

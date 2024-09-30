@@ -3,7 +3,7 @@ import h2 from '../assets/Images/image1.png';
 
 const BannerSection = () => {
   return (
-    <section id="top" className="bg-white py-16">
+    <section id="test1" className="bg-white py-16">
       <div className="container mx-auto px-4">
         <div className="min-h-screen flex flex-col lg:flex-row items-center bg-white">
           <div className="flex-grow flex flex-col justify-center px-4 sm:px-6 lg:w-1/2 lg:pr-8">

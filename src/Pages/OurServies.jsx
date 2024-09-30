@@ -15,6 +15,7 @@ import courseimg from '../assets/Images/imgh.jpg';
 const OurServices = () => {
   return (
     <>
+    <div id='test2'>
       {/* Page Heading Section */}
       <section className="page-heading bg-gradient-to-b from-[#FA931C] to-white text-white py-20">
         <div className="container mx-auto text-center">
@@ -168,6 +169,7 @@ const OurServices = () => {
           </div>
         </div>
       </section>
+      </div>
     </>
   );
 };

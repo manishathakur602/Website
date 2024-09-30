@@ -20,8 +20,8 @@ const items = [
                     <RiDoubleQuotesR  />
                 </div>
                     <div className='p-5 text-center lg:text-left'>
-                            <h1 className='font-bold mb-3'>Search Manisha</h1>
-                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <h1 className='font-bold mb-3'>Shanghai Cooperation Organization (SCO)</h1>
+                            <p>  An intergovernmental organization focusing on political, economic, and security-related cooperation between its member state.</p>
 
                     </div>
                     </div>
@@ -34,8 +34,8 @@ const items = [
     <RiDoubleQuotesR  />
 </div>
     <div className='p-5 text-center lg:text-left'>
-            <h1 className='font-bold mb-3'>Search Manisha</h1>
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <h1 className='font-bold mb-3'>Sharable Content Object (SCO)</h1>
+            <p>  In the context of e-learning, an SCO is a unit of digital content that can be used in online courses, often as part of the SCORM (Sharable Content Object Reference Model) standard.</p>
 
     </div>
 </div>
@@ -48,8 +48,8 @@ const items = [
     <RiDoubleQuotesR  />
 </div>
     <div className='p-5 text-center lg:text-left'>
-            <h1 className='font-bold mb-3'>Search Manisha</h1>
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <h1 className='font-bold mb-3'>Key Events</h1>
+            <p> The SCO Group lawsuits caused significant debate and concern within the open-source and tech communities, as the legal battles affected the growth of Linux.</p>
 
     </div>
 </div>
@@ -64,8 +64,8 @@ const items = [
     <RiDoubleQuotesR  />
 </div>
     <div className='p-5 text-center lg:text-left'>
-            <h1 className='font-bold mb-3'>Search Manisha</h1>
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <h1 className='font-bold mb-3'>SCO Group</h1>
+            <p> The SCO Group was a technology company that became well-known for its involvement in UNIX operating systems and a series of legal disputes surrounding .</p>
 
     </div>
 </div>
@@ -77,8 +77,9 @@ const items = [
          <RiDoubleQuotesR  />
      </div>
          <div className='p-5 text-center lg:text-left'>
-                 <h1 className='font-bold mb-3'>Search Manisha</h1>
-                 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                 <h1 className='font-bold mb-3'>SCORM</h1>
+                 <p> SCORM is a set of technical standards for e-learning software products. It ensures that content is compatible across different LMS platforms sco group in this sco very used.
+                </p>
 
          </div>
 </div>
@@ -93,8 +94,9 @@ const items = [
                     <RiDoubleQuotesR  />
                 </div>
                     <div className='p-5 text-center lg:text-left'>
-                            <h1 className='font-bold mb-3'>Search Manisha</h1>
-                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <h1 className='font-bold mb-3'>Learning Management Systems (LMS).</h1>
+                            <p>An SCO is essentially a self-contained learning module that can be reused, shared, and easily integrated into multiple online courses.
+                            SCOs content are in passed away.</p>
 
                     </div>
                     </div>
@@ -107,8 +109,9 @@ const items = [
                     <RiDoubleQuotesR  />
                 </div>
                     <div className='p-5 text-center lg:text-left'>
-                            <h1 className='font-bold mb-3'>Search Manisha</h1>
-                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <h1 className='font-bold mb-3'>Key Focus Areas</h1>
+                            <p> Addressing regional security challenges like terrorism and organized crime.Promoting economic integration across Eurasia.
+Fostering mutual respect and cooperation among member nations.</p>
 
                     </div>
                     </div>
@@ -120,8 +123,8 @@ const items = [
                     <RiDoubleQuotesR  />
                 </div>
                     <div className='p-5 text-center lg:text-left'>
-                            <h1 className='font-bold mb-3'>Search Manisha</h1>
-                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <h1 className='font-bold mb-3'>Strategic Importance</h1>
+                            <p>The SCO covers over 40% of the world’s population and a significant portion of the global economy.It plays a key role in balancing the influence of Western alliances like NATO.</p>
 
                     </div>
       </div>
@@ -133,7 +136,7 @@ const items = [
 function Testimonials() { 
   return (
     <>
-    <div>
+    <div id='test4'>
 <div className='text-center mb-14 '>
     <p className='text-gray-500 font-medium'>TESTIMONIALS</p>
     <h1 className='font-bold text-3xl mt-3'>What They <b className='text-[#FFBF00]'>Think</b></h1>

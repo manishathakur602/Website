@@ -11,7 +11,7 @@ function ContactUs() {
     <>
 
 
-<div className='sm:flex sm:justify-around sm:gap-2 p-4 k'>
+<div className='sm:flex sm:justify-around sm:gap-2 p-4 k' id='test5'>
 <di v className='my-4 w-full h-[800px]'>
         <iframe 
           src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.7055461305604!2d76.83906957503727!3d30
@@ -94,7 +94,7 @@ function ContactUs() {
 
         <div className=' flex  flex-col  text-center'>
         <p >Copyright © 2022 EduWell Co., Ltd. All Rights Reserved.</p>
-        <p>Design: TemplateMo</p>
+        <p>Design: kreativan technologies</p>
         
         </div>
 
