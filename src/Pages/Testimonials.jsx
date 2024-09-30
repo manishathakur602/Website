@@ -133,6 +133,7 @@ const items = [
 function Testimonials() { 
   return (
     <>
+    <div>
 <div className='text-center mb-14 '>
     <p className='text-gray-500 font-medium'>TESTIMONIALS</p>
     <h1 className='font-bold text-3xl mt-3'>What They <b className='text-[#FFBF00]'>Think</b></h1>
@@ -145,8 +146,8 @@ function Testimonials() {
         responsive={responsive}
         disableButtonsControls
     />
-    
-    </>
+    </div>
+    </ >
   )
 }
 

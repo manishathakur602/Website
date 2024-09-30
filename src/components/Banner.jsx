@@ -1,5 +1,5 @@
 import React from 'react';
-import h2 from '../src/assets/Images/image1.png'; 
+import h2 from '../assets/Images/image1.png'; 
 
 const BannerSection = () => {
   return (

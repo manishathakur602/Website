@@ -1,5 +1,5 @@
 import React from 'react'
-import Design from './assets/Images/newdesign.jpg'
+import Design from '../assets/Images/newdesign.jpg'
 import { Link } from 'react-router-dom'
  function Graphic() {
   return (

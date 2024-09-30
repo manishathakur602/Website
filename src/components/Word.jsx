@@ -1,5 +1,5 @@
 import React from 'react'
-import market from './assets/Images/marketing.jpg'
+import market from '../assets/Images/marketing.jpg'
 import { Link } from 'react-router-dom'
 
  function Word() {

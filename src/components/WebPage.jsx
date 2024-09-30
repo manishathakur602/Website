@@ -1,5 +1,5 @@
 import React from 'react'
-import sco from './assets/Images/sco.jpg'
+import sco from '../assets/Images/sco.jpg'
 import { Link } from 'react-router-dom'
 function WebPage() {
   return (

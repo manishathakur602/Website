@@ -1,16 +1,16 @@
 
-import s1img1 from './assets/ourServies/s1img1.png';
-import s1img2 from './assets/ourServies/s1img2.png';
-import s1img3 from './assets/ourServies/s1img3.png';
-import s1img4 from './assets/ourServies/s1img4.png';
-import s1img5 from './assets/ourServies/s1img5.png';
-import s1img6 from './assets/ourServies/s1img6.png';
-import s1img7 from './assets/ourServies/s1img7.png';
-import s1img8 from './assets/ourServies/s1img8.png';
-import s2img1 from './assets/ourServies/s2img1.png';
-import s2img2 from './assets/ourServies/s2img2.png';
-import s2imgL from './assets/ourServies/unimg.png';
-import courseimg from './assets/ourServies/pexels-fauxels-3184338 (1).jpg';
+import s1img1 from '../assets/Images/s1img1.png';
+import s1img2 from '../assets/Images/s1img2.png';
+import s1img3 from '../assets/Images/s1img3.png';
+import s1img4 from '../assets/Images/s1img4.png';
+import s1img5 from '../assets/Images/s1img5.png';
+import s1img6 from '../assets/Images/s1img6.png';
+import s1img7 from '../assets/Images/s1img7.png';
+import s1img8 from '../assets/Images/s1img8.png';
+import s2img1 from '../assets/Images/s2img1.png';
+import s2img2 from '../assets/Images/s2img2.png';
+import s2imgL from '../assets/Images/unimg.png';
+import courseimg from '../assets/Images/imgh.jpg';
 
 const OurServices = () => {
   return (

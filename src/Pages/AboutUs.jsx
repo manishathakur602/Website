@@ -1,10 +1,10 @@
 import  { useState } from 'react';
-import gift from './assets/images/undrawhead.png';
-import maleprofile from './assets/images/maleprofile.png';
-import femaleprofile from './assets/images/femaleprofile.png';
-import creative from './assets/images/creative.jpg'; 
-import technology from './assets/images/technology.jpg'; 
-import books from './assets/images/books.jpg'; 
+import gift from '../assets/images/undrawhead.png';
+import maleprofile from '../assets/images/maleprofile.png';
+import femaleprofile from '../assets/images/femaleprofile.png';
+import creative from '../assets/images/creative.jpg'; 
+import technology from '../assets/images/technology.jpg'; 
+import books from '../assets/images/books.jpg'; 
 import { FaFacebookF } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
@@ -58,6 +58,7 @@ const AboutUS = () => {
             About Us
           </h1>
           <p className="text-lg mb-8 text-white">
+          
             Discover who we are and how we can boost your online presence with our SEO expertise.
           </p>
         </div>

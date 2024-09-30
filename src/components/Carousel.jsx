@@ -2,9 +2,9 @@ import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
-import first from "./assets/Images/newimg.jpg"
-import note from "./assets/Images/mfirst.jpg"
-import group from "./assets/Images/group.jpg"
+import first from "../assets/Images/newimg.jpg"
+import note from "../assets/Images/mfirst.jpg"
+import group from "../assets/Images/group.jpg"
 
 const responsive = {
     0: { items: 1 },
@@ -23,7 +23,7 @@ const items = [
    
 
   
-        <p className='font-bold mt-5  text-2xl'>Local SEO</p> <p className=' p-5 '>For businesses targeting a local audience, our local SEO services ensure that you appear in search results when potential customers search for services in your area. Encouraging and managing customer reviews to build trus </p>
+        <p className='font-bold mt-5  text-2xl'>Local SEO</p> <p className=' p-5 '>For businesses targeting a local audience, our local SEO services ensure that you appear in search results when potential customers search for services in your area. Encouraging and managing </p>
         </div>
         </div>,
 
