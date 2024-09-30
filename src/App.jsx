@@ -7,6 +7,19 @@ import Title from "./Title"
 
 import Page1 from "./Page1"
 
+import BannerSection from "./Banner"
+import Buttons from "./Buttons"
+import Carousel from "./Carousel"
+import ContactUS from "./ContactUs"
+import Courses from "./Courses"
+import Graphic from "./Graphic"
+import Header from "./Header"
+import Title from "./Title"
+import WebDesign from "./WebDesign"
+import WebPage from "./WebPage"
+import Word from "./Word"
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
 
 
 function App() {
@@ -14,6 +27,7 @@ function App() {
   return (
     <>
     
+
        <Testimonials/> 
   
 
@@ -22,6 +36,31 @@ function App() {
        <ContactUS/> 
     {/* <Carousel/> */}
     
+
+       
+    <BrowserRouter>
+    <Header />
+    <BannerSection />
+     <Title />
+     <Carousel />
+     <Courses />
+     <div className="lg:flex lg:p-5 lg:justify-around">
+      <Buttons />
+      <Routes>
+        <Route path="/" element={<WebPage />} />
+        <Route path="/graphic" element={<Graphic />} />
+        <Route path="/webdesign" element={<WebDesign />} />
+        <Route path="/word" element={<Word />} />
+      </Routes>
+     </div>
+     <div className="bg-[#e7ddc0]">
+     <Testimonials />
+     <ContactUS />
+     </div>
+     
+     </BrowserRouter>
+   
+
     
     </>
   )
